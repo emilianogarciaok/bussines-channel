@@ -24,10 +24,10 @@ export const Banner = () => {
       </div>
       {/* Texts */}
       <div className="w-[750px] h-[276px] mb-[40px] absolute lg:mx-[80px] z-20 sm:mx-auto">
-        <div className="text-[70px] text-white pb-[24px] font-bold">
-          L'<span className="text-primary-500 font-bold">Aerobica Mentale</span>{" "}
+        <span className="text-[70px] text-white pb-[24px] font-bold">
+          L&#39;<b className="text-primary-500 font-bold">Aerobica Mentale</b>{" "}
           per la tua impresa
-        </div>
+        </span>
         <p className="text-[32px] mb-[35px] text-white">
           Solo lavorando sulla creazione di una cultura vincente potrai
           sbloccare il potenziale della tua azienda.

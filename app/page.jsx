@@ -1,9 +1,17 @@
 import Image from "next/image";
+import { Banner } from "@/components/Banner";
+import { NavBar } from "@/components/NavBar";
+import { InfoSec } from "@/components/InfoSec";
+import { Quote } from "@/components/Quote";
+import { Courses } from "@/components/Courses";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>Hola</h1>
-    </main>
+    <>
+      {/* <Banner /> */}
+      <InfoSec />
+      {/* <Quote /> */}
+      {/* <Courses /> */}
+    </>
   );
 }

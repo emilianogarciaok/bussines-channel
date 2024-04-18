@@ -6,16 +6,16 @@ import { NavBar } from "./NavBar";
 
 export const Banner = () => {
   return (
-    <section className="w-[100%] lg:h-[982px] h-[1130px] mx-auto relative flex flex-col justify-center ">
+    <section className="relative mx-auto flex min-h-[calc(100vh-0px)] w-[100%] items-center justify-start">
       {/* NavBar */}
       <div className="absolute w-full top-0 z-10 mt-[30px]">
         <NavBar />
       </div>
       {/* Image */}
-      <div className="w-[100%] h-full max-h-[982px] absolute">
+      <div className="h-full w-full">
         <Image
           src={homeimage}
-          className="w-full h-full object-center"
+          className="h-full w-full object-center"
           objectFit="cover"
           layout="fill"
           priority
@@ -23,22 +23,24 @@ export const Banner = () => {
         />
       </div>
       {/* Texts */}
-      <div className="w-[750px] h-[276px] mb-[40px] absolute lg:mx-[80px] z-20 sm:mx-auto">
-        <div className="text-[70px] text-white pb-[24px] font-bold">
-          L'<span className="text-primary-500 font-bold">Aerobica Mentale</span>{" "}
-          per la tua impresa
+      <div className="absolute z-10 mx-[20px]   h-[276px]  text-center lg:w-[750px] md:w-[650px] md:text-start mb-[130px] ml-0 md:ml-[100px]">
+        <div className=" mb-[24px] text-[35px] font-bold text-white md:text-[60px] lg:text-[80px]">
+          L'<span className="text-primary-500">Aerobica Mentale</span> per la
+          tua impresa
         </div>
-        <p className="text-[32px] mb-[35px] text-white">
+        <p className=" mb-[40px] text-[25px] md:text-[32px] text-white">
           Solo lavorando sulla creazione di una cultura vincente potrai
           sbloccare il potenziale della tua azienda.
         </p>
-        <button className="w-[326px] h-[64px] text-white font-bold bg-primary-500">
-          Scopri il nostro metodo
-        </button>
+        <div className="flex w-[100%] justify-center md:justify-start ">
+          <button className="h-[64px]  w-[200px] rounded-lg bg-primary-500 font-bold text-white md:w-[326px]">
+            Scopri il nostro metodo
+          </button>
+        </div>
       </div>
       {/* Line Home */}
       <div className="absolute bottom-0 w-full flex text-center justify-center z-20">
-        <Image src={linehome} width={1352} />
+        <Image src={linehome} width={1352} alt="Image " />
       </div>
       {/* Div Opacity */}
       <div className="w-full h-full bg-black absolute bg-opacity-40"></div>

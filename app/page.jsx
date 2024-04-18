@@ -15,9 +15,12 @@ export default function Home() {
       <InfoSec />
       <Quote />
       <Courses />
+<<<<<<< HEAD
       <HeroSec />
       <Review />
       <SocialProof />
+=======
+>>>>>>> 5d685204dcff2ac85e92792eb6c2a62194a49785
     </>
   );
 }

@@ -22,11 +22,11 @@ export const Courses = () => {
   return (
     <div className="w-[100%] lg:w-full lg:h-[962px] flex-col  mx-auto flex items-center pt-[50px]">
       {/* Titles */}
-      <div className="lg:w-[1124px] w-[100%] h-[215px] mb-[100px] lg:text-start text-center">
+      <div className="xl:w-[1124px] w-[100%] h-[215px] mb-[100px] lg:text-start text-center">
         <span className="text-secondary-500 text-[20px] md:text-[24px]">
           Uno sguardo rapido su Business Channel
         </span>
-        <h2 className="md:text-[50px] text-[40px] lg:text-[70px] text-secondary-700 font-bold">
+        <h2 className="md:text-[50px] text-[35px] lg:text-[70px] text-secondary-700 font-bold">
           Il tuo tempo è denaro e la curiosità ha un tempo limitato
         </h2>
       </div>

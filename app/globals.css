@@ -10,3 +10,11 @@
 body {
   font-size: 16px;
 }
+
+.clippy {
+  clip-path: polygon(0 88%, 100% 93%, 100% 100%, 0% 100%);
+}
+
+.clippyfooter {
+  clip-path: polygon(0 28%, 100% 33%, 100% 100%, 0% 100%);
+}

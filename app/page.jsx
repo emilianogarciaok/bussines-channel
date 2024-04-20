@@ -7,6 +7,8 @@ import { Courses } from "@/components/Courses";
 import { HeroSec } from "@/components/HeroSec";
 import { Review } from "@/components/Review";
 import { SocialProof } from "@/components/SocialProof";
+import { TeamSection } from "@/components/TeamSection";
+import { Footer } from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -15,12 +17,11 @@ export default function Home() {
       <InfoSec />
       <Quote />
       <Courses />
-<<<<<<< HEAD
       <HeroSec />
       <Review />
       <SocialProof />
-=======
->>>>>>> 5d685204dcff2ac85e92792eb6c2a62194a49785
+      <TeamSection />
+      <Footer />
     </>
   );
 }

@@ -39,8 +39,8 @@ export const Banner = () => {
         </div>
       </div>
       {/* Line Home */}
-      <div className="absolute bottom-0 w-full flex text-center justify-center z-20">
-        <Image src={linehome} width={1352} alt="Image " />
+      <div className=" w-full  h-full z-20 absolute bottom-0 flex justify-center">
+        <div className="lg:w-[85%] w-full bg-white h-full clippy rounded-t-2xl"></div>
       </div>
       {/* Div Opacity */}
       <div className="w-full h-full bg-black absolute bg-opacity-40"></div>

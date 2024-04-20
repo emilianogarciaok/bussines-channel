@@ -29,7 +29,7 @@ export const InfoSec = () => {
       <div className="flex flex-col w-[90%] h-[382px] xl:w-[1124px] mx-auto mb-[100px] sm:mb-[10px]">
         <div className="xl:w-[785px] w-full h-[80px] md:text-start text-center md:mx-auto lg:mx-0">
           <div className="w-full">
-            <div className="md:text-[25px] lg:text-[32px] sm:text-[20px] text-[18px]  text-secondary-500 w-full">
+            <div className="md:text-[25px] lg:text-[32px] sm:text-[20px] text-[18px] mt-[20px] lg:mt-0  text-secondary-500 w-full">
               Un anno di coinvolgimento totale per creare un luogo in cui le
               persone
               <span className="text-red-500">"parlano la stessa lingua"</span>
@@ -41,7 +41,7 @@ export const InfoSec = () => {
           <h3 className="lg:text-[65px] md:text-[50px] text-[40px] text-primary-500 font-bold">
             Business Channel
           </h3>
-          <div className="text-[20px] w-[100%] text-secondary-500">
+          <div className="text-[20px] w-[100%] text-secondary-500 ml-0 md:ml-[10px]">
             Il miglioramento è una dato di fatto. La frase obsoleta
             <span className="text-primary-500 font-bold">
               "chi non si forma si ferma"
@@ -65,8 +65,8 @@ export const InfoSec = () => {
         })}
       </div>
       {/* Texts */}
-      <div className="w-full mx-auto text-[18px] text-center sm:text-start md:text-[20px] h-[78px] mb-[100px] sm:mb-[30px]">
-        <div className="w-[100%] lg:w-[910px] mx-auto lg:mx-0 text-secondary-500 px-[60px] lg:px-0">
+      <div className="w-full  text-[18px] text-center sm:text-start md:text-[20px] h-[78px] mb-[100px] sm:mb-[30px]">
+        <div className="w-[100%] xl:w-[910px] mx-auto lg:mx-0 text-secondary-500 px-[20px] lg:px-0">
           ...e se ti dicessimo che abbiamo trovato la{" "}
           <span className="text-primary-500 font-bold">soluzione</span> per
           questi 3 problemi fondamentali, saresti disposto a valutare un nuovo

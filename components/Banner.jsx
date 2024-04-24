@@ -6,7 +6,7 @@ import { NavBar } from "./NavBar";
 
 export const Banner = () => {
   return (
-    <section className="relative mx-auto flex min-h-[calc(100vh-0px)] w-[100%] items-center justify-start">
+    <section className="relative mx-auto flex  h-[982px] w-[100%] items-center justify-start">
       {/* NavBar */}
       <div className="absolute w-full top-0 z-10 mt-[30px]">
         <NavBar />
@@ -23,12 +23,12 @@ export const Banner = () => {
         />
       </div>
       {/* Texts */}
-      <div className="absolute z-10 mx-[20px]   h-[276px]  text-center lg:w-[750px] md:w-[650px] md:text-start mb-[130px] ml-0 md:ml-[100px]">
-        <div className=" mb-[24px] text-[35px] font-bold text-white md:text-[60px] lg:text-[80px]">
+      <div className="absolute z-10 mx-[20px] mt-[60px]  h-[276px]  text-center lg:w-[760px] md:w-[650px] md:text-start mb-[130px] ml-0 md:ml-[100px]">
+        <div className=" mb-[24px] text-[35px] font-bold text-white md:text-[50px] lg:text-[70px] xl:text-[80px]">
           L'<span className="text-primary-500">Aerobica Mentale</span> per la
           tua impresa
         </div>
-        <p className=" mb-[40px] text-[25px] md:text-[32px] text-white">
+        <p className=" mb-[40px] text-[25px] md:text-[30px] text-white">
           Solo lavorando sulla creazione di una cultura vincente potrai
           sbloccare il potenziale della tua azienda.
         </p>
@@ -40,7 +40,7 @@ export const Banner = () => {
       </div>
       {/* Line Home */}
       <div className=" w-full  h-full z-20 absolute bottom-0 flex justify-center">
-        <div className="lg:w-[85%] w-full bg-white h-full clippy rounded-t-2xl"></div>
+        <div className="lg:w-[90%] w-full bg-[#F6F6F6] h-full clippy rounded-t-2xl "></div>
       </div>
       {/* Div Opacity */}
       <div className="w-full h-full bg-black absolute bg-opacity-40"></div>

@@ -15,10 +15,10 @@ export const Quote = () => {
           </h1>
         </div>
         <div className="hidden xl:flex item-end justify-start absolute w-full h-full -translate-y-[60px] translate-x-[30px]">
-          <Image src={comilla1} width={129} height={113} />
+          <Image src={comilla1} width={129} height={113} alt="Image" />
         </div>
         <div className="hidden xl:flex item-start justify-end absolute w-full h-full -translate-x-[158px] translate-y-[60px]">
-          <Image src={comilla2} />
+          <Image src={comilla2} alt="Image" />
         </div>
       </div>
     </div>

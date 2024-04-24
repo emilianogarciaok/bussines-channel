@@ -24,7 +24,7 @@ export const InfoSec = () => {
   ];
 
   return (
-    <div className="bg-white max-w-[1126px] w-[100%] min-h-[calc(100vh-130px)] mx-auto mb-[50px] ">
+    <div className="bg-[#F6F6F6] max-w-[1126px] w-[100%] min-h-[calc(100vh-130px)] mx-auto mb-[50px] ">
       {/* Caja 1 */}
       <div className="flex flex-col w-[90%] h-[382px] xl:w-[1124px] mx-auto mb-[100px] sm:mb-[10px]">
         <div className="xl:w-[785px] w-full h-[80px] md:text-start text-center md:mx-auto lg:mx-0">
@@ -41,7 +41,7 @@ export const InfoSec = () => {
           <h3 className="lg:text-[65px] md:text-[50px] text-[40px] text-primary-500 font-bold">
             Business Channel
           </h3>
-          <div className="text-[20px] w-[100%] text-secondary-500 ml-0 md:ml-[10px]">
+          <div className="text-[20px] w-[100%] text-secondary-500 ">
             Il miglioramento è una dato di fatto. La frase obsoleta
             <span className="text-primary-500 font-bold">
               "chi non si forma si ferma"
@@ -52,7 +52,7 @@ export const InfoSec = () => {
         </div>
       </div>
       {/* Cards */}
-      <div className="mx-auto grid max-w-sm grid-cols-1 gap-[30px]  lg:mx-auto lg:max-w-[1126px] lg:grid-cols-3 mb-[40px] xl:grid-cols-3 ">
+      <div className="mx-auto grid max-w-sm grid-cols-1 gap-[30px]  lg:mx-auto lg:max-w-[1126px] lg:grid-cols-3 mb-[40px] xl:grid-cols-3">
         {cards.map((card) => {
           return (
             <CardInfo

@@ -25,7 +25,7 @@ export const Review = () => {
       </div>
       {/* Numbe */}
       <div className="w-full hidden absolute bottom-0 md:flex justify-end ">
-        <Image src={numberhome} width={194} height={100} />
+        <Image src={numberhome} width={194} height={100}  alt="Image"/>
       </div>
     </section>
   );

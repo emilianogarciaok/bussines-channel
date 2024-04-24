@@ -1,12 +1,10 @@
 import React from "react";
 import { CardProof } from "./reusable/CardProof";
-import reviewswall from "../images/home-page/reviewswall.png";
-import Image from "next/image";
 
 export const SocialProof = () => {
   return (
-    <div className="w-full h-full overflow-hidden">
-      <section className=" md:w-[100%] w-[100%] bg-white/60 h-[975px] mx-auto flex sm:overflow-hidden lg:transform lg:-rotate-6 items-center justify-center ">
+    <div className="w-full min-h-[calc(100vh-130px)] overflow-hidden bg-[#F6F6F6] relative">
+      <section className=" md:w-[100%] w-[100%] bg-[#F6F6F6] h-[975px] mx-auto flex sm:overflow-hidden lg:transform lg:-rotate-6 items-center justify-center absolute ">
         <div>
           <CardProof />
         </div>
@@ -17,6 +15,8 @@ export const SocialProof = () => {
           <CardProof />
         </div>
       </section>
+      {/* Degradade */}
+      <div className="w-full h-full bg-gradient-to-b via-transparent from-transparent  to-[#F6F6F6] z-20 absolute"></div>
     </div>
   );
 };

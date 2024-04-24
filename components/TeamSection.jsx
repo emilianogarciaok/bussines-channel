@@ -21,18 +21,9 @@ export const TeamSection = () => {
     initialSlide: 0,
     responsive: [
       {
-        breakpoint: 1300,
+        breakpoint: 1280,
         settings: {
           slidesToShow: 4,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 1200,
-        settings: {
-          slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
           dots: true,
@@ -50,7 +41,7 @@ export const TeamSection = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 2,
         },
@@ -112,14 +103,14 @@ export const TeamSection = () => {
     },
   ];
   return (
-    <section className="w-full  h-[890px] overflow-hidden ">
+    <section className="w-full  h-[890px] overflow-hidden bg-[#F6F6F6] ">
       {/* Textos */}
       <div className="xl:w-[1090px] w-[100%] h-[278px]  md:mx-auto  font-bold mb-0  lg:mb-[100px]">
         <h1 className="text-[30px] sm:text-[40px] md:text-[60px] lg:text-[65px] xl:text-[80px]  text-center md:mx-0 mx-[10px] text-se">
           ...e tutto questo, solo grazie al nostro{" "}
           <span className="text-primary-500 ">straordinario team</span>
         </h1>
-        <p className="lg:text-[17.5px] text-[15px] text-center md:mx-0 mx-[30px] md:text-start text-secondary-500">
+        <p className="lg:text-[17.5px] text-[15px] text-center lg:mx-[50px] mx-[60px] md:text-start text-secondary-500">
           Nel team di Business Channel, brilla un gruppo di collaboratori
           straordinari, tutti impegnati a offrire il massimo supporto ai nostri
           partner. I fondatori dell'azienda sono stati gli architetti di

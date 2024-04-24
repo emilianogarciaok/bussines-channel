@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const CardInfo = ({ title, text, image }) => {
   return (
-    <div className="w-[326px] h-[262px] bg-secondary-500 flex items-center justify-center rounded-md relative mx-auto ">
+    <div className="w-[326px] h-[262px] bg-secondary-500 flex items-center justify-center rounded-md relative mx-auto lg:mr-[30px]">
       {/* Texts */}
       <div className="w-[280px] h-[80%]">
         <h1 className="text-[26px] text-white font-bold">{title}</h1>

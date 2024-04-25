@@ -18,7 +18,7 @@ export const HeroSec = () => {
       </div>
       {/* Image */}
       <div className=" w-full  h-full z-20 absolute bottom-0 flex justify-center">
-        <div className="lg:w-[90%] w-full bg-[#F6F6F6] h-full clippyfooter rounded-t-2xl "></div>
+        <div className="lg:w-[90%] w-full bg-[#F6F6F6] h-full clippy rounded-t-2xl "></div>
       </div>
     </section>
   );

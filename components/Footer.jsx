@@ -8,22 +8,22 @@ export const Footer = () => {
       {/* Footer Items */}
       <div className=" hidden bg-secondary-700 w-full h-full clippyfooter xl:flex  items-center justify-start absolute">
         <div className="w-[668px] h-[177px] ml-[100px]">
-          <nav className="flex justify-between mx-[30px] md:mt-[50px]">
-            <ul className="text-white">
+          <nav className="flex justify-between mx-[30px] md:mt-[50px] ">
+            <ul className="text-white flex  flex-col gap-y-4">
               <h5 className="text-[20px] font-bold">Bussines Channel</h5>
               <li>Pagina 1</li>
               <li>Pagina 2</li>
               <li>Pagina 3</li>
               <li>Pagina 4</li>
             </ul>
-            <ul className="text-white">
+            <ul className="text-white flex  flex-col gap-y-4">
               <h5 className=" text-[20px] font-bold">Jump Suite</h5>
               <li>Jump Leader Advanced</li>
               <li>Jump Sales</li>
               <li>Jump Follower</li>
               <li>Jump Leader Live</li>
             </ul>
-            <ul className="text-white">
+            <ul className="text-white flex  flex-col gap-y-4">
               <h5 className="text-[20px] font-bold">Contatti</h5>
               <li>info@businesschannel.it</li>
               <li>+39 0422 36 35 99</li>

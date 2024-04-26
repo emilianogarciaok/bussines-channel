@@ -9,7 +9,7 @@ export const Quote = () => {
       {/* Contenedor principal de el texto y comillas */}
       <div className="md:w-[1200px] w-[100%] h-[250px] flex items-center justify-center mx-auto relative">
         <div className="flex items-center justify-center absolute  w-[100%] lg:max-w-[1140px] text-[20px] text-center lg:text-[32px]">
-          <h1 className="text-white  font-bold px-[20px] md:px-0">
+          <h1 className="text-white   px-[20px] md:px-0 font-Roboto">
             L’Aerobica Mentale in azienda non è solo un esercizio per la mente,
             ma un investimento nel capitale più prezioso: il potenziale umano.
           </h1>

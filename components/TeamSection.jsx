@@ -105,12 +105,12 @@ export const TeamSection = () => {
   return (
     <section className="w-full  h-[890px] overflow-hidden bg-[#F6F6F6] ">
       {/* Textos */}
-      <div className="xl:w-[1090px] w-[100%] h-[278px]  md:mx-auto  font-bold mb-0  lg:mb-[100px]">
-        <h1 className="text-[30px] sm:text-[40px] md:text-[60px] lg:text-[65px] xl:text-[80px]  text-center md:mx-0 mx-[10px] text-se">
+      <div className="xl:w-[1090px] w-[100%] h-[278px]  md:mx-auto  mb-0  lg:mb-[100px]">
+        <h1 className="text-[30px] sm:text-[40px] md:text-[60px] lg:text-[65px] xl:text-[80px]  text-center md:mx-0 mx-[10px] text-se text-secondary-700">
           ...e tutto questo, solo grazie al nostro{" "}
           <span className="text-primary-500 ">straordinario team</span>
         </h1>
-        <p className="lg:text-[17.5px] text-[15px] text-center lg:mx-[50px] mx-[60px] md:text-start text-secondary-500">
+        <p className="lg:text-[17.5px] text-[15px] text-center lg:mx-[50px] mx-[60px] md:text-start text-secondary-500 font-avenirlight">
           Nel team di Business Channel, brilla un gruppo di collaboratori
           straordinari, tutti impegnati a offrire il massimo supporto ai nostri
           partner. I fondatori dell'azienda sono stati gli architetti di
@@ -119,7 +119,7 @@ export const TeamSection = () => {
         </p>
       </div>
       {/* Carrousel */}
-      <div className="xl:w-[1500px]  w-[80%]  mx-auto h-[330px] sm-mt-0 mt-[129px] ">
+      <div className="xl:w-[1500px]  w-[80%]  mx-auto h-[350px]  sm-mt-0 mt-[129px]  ">
         <div>
           <Slider {...settings}>
             {cards.map((card) => {
@@ -133,6 +133,9 @@ export const TeamSection = () => {
               );
             })}
           </Slider>
+          <div className="mt-[30px] w-full h-[40px] flex justify-center items-center text-[24px] text-secondary-500 font-avenirlight">
+            <span>Conosci i nostri talenti</span>
+          </div>
         </div>
       </div>
     </section>

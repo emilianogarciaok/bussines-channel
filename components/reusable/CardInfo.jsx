@@ -7,7 +7,7 @@ export const CardInfo = ({ title, text, image }) => {
       {/* Texts */}
       <div className="w-[280px] h-[80%]">
         <h1 className="text-[26px] text-white font-bold">{title}</h1>
-        <p className="text-white text-[16px]">{text}</p>
+        <p className="text-white text-[16px] font-avenirlight">{text}</p>
       </div>
       {/* Number */}
       <div className="absolute flex items-end justify-end z-20 w-full h-full pr-4 pb-4">

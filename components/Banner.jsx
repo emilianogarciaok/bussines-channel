@@ -24,7 +24,7 @@ export const Banner = () => {
       </div>
       {/* Texts */}
       <div className="absolute z-10 mx-[20px] mt-[60px]  h-[276px]  text-center lg:w-[760px] md:w-[650px] md:text-start mb-[130px] ml-0 md:ml-[100px]">
-        <div className=" mb-[24px] text-[35px] font-bold text-white md:text-[50px] lg:text-[70px] xl:text-[80px]">
+        <div className=" mb-[24px] text-[35px] font-bold text-white md:text-[50px] lg:text-[70px] xl:text-[80px] font-avenirnext">
           L'<span className="text-primary-500">Aerobica Mentale</span> per la
           tua impresa
         </div>

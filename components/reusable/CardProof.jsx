@@ -33,7 +33,7 @@ export const CardProof = () => {
               <h5 className=" font-bold text-[26px] text-secondary-100">
                 <span className="text-primary-500">n</span>/10
               </h5>
-              <p className="text-[16px] text-secondary-500">
+              <p className="text-[16px] text-secondary-500 font-avenirlight">
                 Ullamcorper aenean nullam sodales aliquam. Ornare ullamcorper
                 senectus proin a orci pulvinar. Donec risus sapien lacus.
               </p>

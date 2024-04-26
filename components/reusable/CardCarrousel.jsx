@@ -10,8 +10,8 @@ export const CardCarrousel = ({ name, ocupation, image }) => {
       </div>
       {/* Text */}
       <div className="w-full px-4 mt-[10px]">
-        <h5 className="font-bold text-[20px]">{name}</h5>
-        <h6 className="text-[13px] text-secondary-200">Partner & RD Manager</h6>
+        <h5 className=" text-[20px] text-secondary-700 font-bold">{name}</h5>
+        <h6 className="text-[13px] text-secondary-200 font-avenirlight">Partner & RD Manager</h6>
       </div>
     </div>
   );

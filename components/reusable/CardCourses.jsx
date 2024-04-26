@@ -21,7 +21,7 @@ export const CardCourses = ({ image, title, text, buttonText }) => {
         <h2 className=" text-[26px] text-secondary-700 font-bold">
           {title}
         </h2>
-        <p className="text-[16px] text-secondary-500 mb-[20px]">
+        <p className="text-[16px] text-secondary-500 mb-[20px] font-avenirlight">
           {text}
         </p>
         <button className="w-full lg:w-[262px] h-[48px] text-[20px] border-[2px] border-primary-500 text-primary-500 font-bold rounded-md">

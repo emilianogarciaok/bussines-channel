@@ -5,7 +5,7 @@ import Image from "next/image";
 export const Review = () => {
   return (
     <section className="lg:w-[896px] w-full h-[474px] mx-auto relative mb-0 md:mb-[50px]">
-      <div className="w-[100%] md:text-start text-center  rounded-lg  h-[342px]  text-[20px] md:text-[26px] flex flex-col justify-between text-secondary-500 absolute">
+      <div className="w-[100%] md:text-start text-center  rounded-lg  h-[342px]  text-[20px] md:text-[26px] flex flex-col justify-between text-secondary-500 absolute font-avenirlight">
         <p className="lg:mb-0 mb-[20px] px-[10px]">
           Dopo 3 anni di sperimentazione del nostro nuovo progetto formativo,
           abbiamo condotto un'indagine per raccogliere i feedback dei nostri
@@ -13,7 +13,7 @@ export const Review = () => {
         </p>
         <div className="lg:mb-0 mb-[20px] px-[10px] lg:px-0">
           Il sondaggio è stato condotto su un campione rappresentativo di
-          <span className="text-black font-bold"> 90 aziende</span>{" "}
+          <span className="text-black font font-bold"> 90 aziende</span>{" "}
           partecipanti, coprendo{" "}
           <span className="text-black font-bold">22 argomenti chiave.</span>
         </div>

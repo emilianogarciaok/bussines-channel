@@ -67,7 +67,7 @@ export const Footer = () => {
             © Copyright 2024 Business Channel S.r.l. – P.IVA 1234567890
           </span>
         </nav>
-        <nav className="hidden md:flex items-center justify-center gap-4">
+        <nav className="hidden md:flex items-center justify-center gap-4 mr-[100px]">
           <FaFacebook className="text-white" />
           <FaLinkedin className="text-white" />
         </nav>

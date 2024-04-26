@@ -61,8 +61,8 @@ export const Footer = () => {
         </form>
       </div>
       {/* RED SECTION */}
-      <div className="w-full  bg-primary-500 text-white h-[48px] absolute bottom-0 left-0 right-0 px-4 md:px-8 flex items-center justify-between font-avenirlight">
-        <nav className="md:text-start text-center text-[13px]">
+      <div className="w-full  bg-primary-500 text-[13px] text-white h-[48px] absolute bottom-0 left-0 right-0 px-4 md:px-8 flex items-center justify-between font-avenirlight">
+        <nav className="md:text-start text-center">
           <span>
             © Copyright 2024 Business Channel S.r.l. – P.IVA 1234567890
           </span>

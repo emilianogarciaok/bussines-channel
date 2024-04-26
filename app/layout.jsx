@@ -14,6 +14,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Business Channel",
+  icons:{
+    icon:[
+      '/favicon.ico'
+    ]
+  }
 };
 
 export default function RootLayout({ children }) {

@@ -61,21 +61,21 @@ export const Footer = () => {
         </form>
       </div>
       {/* RED SECTION */}
-      {/* <div className="w-full bg-primary-500 text-white h-[48px] absolute bottom-0 mx-auto flex  justify-between items-center px-0 md:px-[100px]">
-        <nav>
+      <div className="w-full  bg-primary-500 text-white h-[48px] absolute bottom-0 left-0 right-0 px-4 md:px-8 flex items-center justify-between font-avenirlight">
+        <nav className="md:text-start text-center text-[13px]">
           <span>
             © Copyright 2024 Business Channel S.r.l. – P.IVA 1234567890
           </span>
         </nav>
-        <nav className="flex gap-x-2 text-white itesms-center justify-center  leading-10">
-          <FaFacebook />
-          <FaLinkedin />
+        <nav className="hidden md:flex items-center justify-center gap-4">
+          <FaFacebook className="text-white" />
+          <FaLinkedin className="text-white" />
         </nav>
-        <nav className="gap-x-2 flex">
+        <nav className="hidden lg:flex items-center gap-4">
           <span>Gestisci privacy</span>
           <span>Termini e condizioni</span>
         </nav>
-      </div> */}
+      </div>
     </section>
   );
 };

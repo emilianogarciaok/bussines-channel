@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useRef } from "react";
 import Slider from "react-slick";
 import card1 from "../images/home-page/Carrousel/card1.svg";
 import card2 from "../images/home-page/Carrousel/card2.svg";
@@ -10,10 +10,24 @@ import card6 from "../images/home-page/Carrousel/card6.svg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { CardCarrousel } from "./reusable/CardCarrousel";
+import arrowleft from "../images/logos/ArrowLeft.svg";
+import arrowright from "../images/logos/ArrowRight.svg";
+import Image from "next/image";
 
 export const TeamSection = () => {
+  // Funciones para el carrousel
+
+  const sliderRef = useRef(null);
+  const nextSlide = () => {
+    sliderRef.current.slickNext();
+  };
+
+  const prevSlide = () => {
+    sliderRef.current.slickPrev();
+  };
+
   var settings = {
-    dots: true,
+
     infinite: true,
     speed: 500,
     slidesToShow: 6,
@@ -55,6 +69,7 @@ export const TeamSection = () => {
       },
     ],
   };
+
   const cards = [
     {
       name: "F. Coppola",
@@ -102,6 +117,7 @@ export const TeamSection = () => {
       image: card1,
     },
   ];
+
   return (
     <section className="w-full  h-[890px] overflow-hidden bg-[#F6F6F6] ">
       {/* Textos */}
@@ -121,7 +137,7 @@ export const TeamSection = () => {
       {/* Carrousel */}
       <div className="xl:w-[1500px]  w-[80%]  mx-auto h-[350px]  sm-mt-0 mt-[129px]  ">
         <div>
-          <Slider {...settings}>
+          <Slider {...settings} ref={sliderRef}>
             {cards.map((card) => {
               return (
                 <CardCarrousel
@@ -133,8 +149,14 @@ export const TeamSection = () => {
               );
             })}
           </Slider>
-          <div className="mt-[30px] w-full h-[40px] flex justify-center items-center text-[24px] text-secondary-500 font-avenirlight">
+          <div className="mt-[30px] w-full h-[40px] flex justify-center md:text-start text-center items-center text-[20px] md:text-[24px] text-secondary-500 font-avenirlight gap-x-8 mx-auto">
+            <button>
+              <Image src={arrowleft} onClick={prevSlide} />
+            </button>
             <span>Conosci i nostri talenti</span>
+            <button>
+              <Image src={arrowright} onClick={nextSlide}/>
+            </button>
           </div>
         </div>
       </div>

@@ -6,7 +6,7 @@ export const HeroSec = () => {
   return (
     <section className="w-[100%]  bg-secondary-700 h-[350px] md:h-[555px] mx-auto relative ">
       <div className="w-full h-full flex items-start justify-center absolute  mt-[50px] md:mt-[90px]">
-        <div className="w-full xl:w-[1160px] lg:h-[176px] mx-[20px]  md:mx-auto lg:text-start text-center absolute">
+        <div className="w-full xl:w-[1160px] lg:h-[176px] mx-[20px]  md:mx-auto xl:text-start text-center absolute">
           <p className="text-[20px] text-white px-[10px] font-avenirlight">
             I clienti sono la bussola che guida il nostro servizio:
           </p>

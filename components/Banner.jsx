@@ -28,7 +28,7 @@ export const Banner = () => {
           L'<span className="text-primary-500">Aerobica Mentale</span> per la
           tua impresa
         </div>
-        <p className=" mb-[40px] text-[25px] md:text-[30px] text-white font-avenirlight">
+        <p className=" mb-[40px] px-[10px] md:px-0 text-[25px] md:text-[30px] text-white font-avenirlight">
           Solo lavorando sulla creazione di una cultura vincente potrai
           sbloccare il potenziale della tua azienda.
         </p>

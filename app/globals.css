@@ -15,6 +15,10 @@ body {
 .clippy {
   clip-path: polygon(0 89%, 100% 94%, 100% 100%, 0% 100%);
 }
+.clippyHero {
+  clip-path: polygon(0 83%, 100% 90%, 100% 100%, 0% 100%);
+
+}
 
 .clippyfooter {
   clip-path: polygon(0 28%, 100% 33%, 100% 100%, 0% 100%);
@@ -24,4 +28,3 @@ body {
   font-family: "AvenirNext";
   src: url("./public/font/avenir-next/AvenirNextCyr-Light.ttf");
 }
-

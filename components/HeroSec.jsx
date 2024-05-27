@@ -4,9 +4,9 @@ import Image from "next/image";
 
 export const HeroSec = () => {
   return (
-    <section className="w-[100%]  bg-secondary-700 h-[350px] md:h-[555px] mx-auto relative">
+    <section className="w-[100%]  bg-secondary-700 h-[350px] md:h-[555px] mx-auto relative ">
       <div className="w-full h-full flex items-start justify-center absolute   ">
-        <div className="w-full xl:w-[1160px] lg:h-[176px] mx-[20px]  md:mx-auto xl:text-start text-center absolute mt-[120px]">
+        <div className="w-full xl:w-[1160px] lg:h-[176px] mx-[20px]  md:mx-auto xl:text-start text-center absolute mt-[65px] md:mt-[120px]">
           <p className="text-[20px] text-white px-[10px] font-avenirlight">
             I clienti sono la bussola che guida il nostro servizio:
           </p>
@@ -18,7 +18,7 @@ export const HeroSec = () => {
       </div>
       {/* Image */}
       <div className=" w-full  h-full z-20 absolute bottom-0 flex justify-center">
-        <div className="lg:w-[90%] w-full bg-[#F6F6F6] h-full clippy rounded-t-2xl "></div>
+        <div className="lg:w-[90%] w-full bg-[#F6F6F6] h-full clippyHero rounded-t-2xl "></div>
       </div>
     </section>
   );

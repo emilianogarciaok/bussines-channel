@@ -33,14 +33,14 @@ export const InfoSec = () => {
             persone
             <span className="text-red-500">"parlano la stessa lingua"</span>
           </div>
-          <h1 className="lg:text-[80px] md:text-[60px] text-[40px] text-secondary-700 font-bold tracking-[-2%] leading-[88px]">
+          <h1 className="lg:text-[80px] md:text-[60px] text-[40px] text-secondary-700 font-bold md:tracking-[-2%] md:leading-[88px] ">
             Il metodo
           </h1>
-          <h1 className="lg:text-[80px] md:text-[60px] text-[40px] text-primary-500 font-bold tracking-[-2%] leading-[88px]">
+          <h1 className="lg:text-[80px] md:text-[60px] text-[40px] text-primary-500 font-bold md:tracking-[-2%] md:leading-[88px]">
             Business Channel
           </h1>
           <div className="text-[20px] w-[100%]  text-secondary-500 font-avenirlight mt-[10px] md:mt-[24px] leading-[26px] tracking-[-2%]  ">
-            <p>
+            <p className="mx-auto">
               Il miglioramento è una dato di fatto. La frase obsoleta{" "}
               <span className="text-primary-500 font-bold">"chi non si forma si ferma"</span>{" "}
             </p>

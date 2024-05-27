@@ -27,7 +27,7 @@ export const Footer = () => {
               <li>Jump Follower</li>
               <li>Jump Leader Live</li>
             </ul>
-            <ul className="text-white flex  flex-col gap-y-4 font-avenirlight leading-[20px] tracking-[-2%]">
+            <ul className="text-white flex   flex-col gap-y-1 font-avenirlight leading-[20px]  tracking-[-2%]">
               <h5 className="text-[20px] font-bold leading-[24px]">Contatti</h5>
               <li>info@businesschannel.it</li>
               <li>+39 0422 36 35 99</li>
@@ -39,8 +39,8 @@ export const Footer = () => {
       </div>
       {/* Form */}
       <div className="md:text-start text-center w-full md:w-[530px] h-[455px]  mx-auto xl:absolute  flex flex-col items-center justify-center px-[50px] bg-white rounded-lg shadow-2xl xl:mr-[50px]  xl:right-0">
-        <div className="w-full h-[150px] flex items-center justify-start  flex-col  ">
-          <h3 className="text-[20px] md:text-[26px] font-bold text-secondary-700">
+        <div className="w-full  h-[150px] flex items-center justify-start  flex-col  ">
+          <h3 className="text-[20px] md:text-[26px] font-bold text-secondary-700 ">
             Vuoi scoprire quale corso si adatta meglio al tuo business?
           </h3>
           <h5 className="text-[13px] md:text-[20px] text-secondary-400 font-avenirlight tracking-[-2%] leading-[26px]">
@@ -59,7 +59,7 @@ export const Footer = () => {
             Cliccando sul tasto "Contattaci" dichiari di accettare la nostra
             Privacy Policy.
           </p>
-          <button className="w-[200px] h-[64px] bg-primary-500 text-white mt-[10px] rounded-md">
+          <button className="w-[200px] h-[64px] bg-primary-500 text-white mt-[27px] rounded-md">
             Contattaci
           </button>
         </form>

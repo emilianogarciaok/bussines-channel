@@ -20,13 +20,13 @@ export const Courses = () => {
   ];
 
   return (
-    <div className="w-[100%] lg:w-full lg:h-[962px] flex-col  mx-auto flex items-center">
+    <div className="w-[100%]  lg:w-full lg:h-[962px] flex-col  mx-auto flex items-center">
       {/* Titles */}
-      <div className="xl:w-[1124px] w-[100%] h-[215px] mb-[65px] lg:text-start text-center mt-[50px] lg:mt-[110px]">
+      <div className="xl:w-[1124px] md:px-0  px-[12px] w-[100%] h-[215px] mb-[30px] md:mb-[65px] lg:text-start text-center mt-[50px] lg:mt-[110px]">
         <span className="text-secondary-500 text-[20px] md:text-[24px] font-avenirlight">
           Uno sguardo rapido su Business Channel
         </span>
-        <h2 className="md:text-[50px] text-[35px] lg:text-[75px] text-secondary-700 font-bold tracking-[-2%] leading-[88px]">
+        <h2 className="md:text-[50px] text-[30px] lg:text-[75px] text-secondary-700 font-bold md:tracking-[-2%] md:leading-[88px]">
           Il tuo tempo è denaro e la curiosità ha un tempo limitato
         </h2>
       </div>

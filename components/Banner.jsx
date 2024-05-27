@@ -23,8 +23,8 @@ export const Banner = () => {
         />
       </div>
       {/* Texts */}
-      <div className="absolute z-10 mx-[20px] mt-[90px]  h-[276px]  text-center lg:w-[760px] md:w-[650px] md:text-start mb-[130px] ml-0 md:ml-[150px]">
-        <div className=" mb-[24px] text-[35px] font-bold text-white md:text-[50px] lg:text-[70px] xl:text-[80px] font-avenirnext">
+      <div className="absolute z-50 mx-[20px] mt-[90px]  h-[276px]  text-center lg:w-[760px] md:w-[650px] md:text-start mb-[130px] ml-0 lg:ml-[100px]">
+        <div className=" mb-[24px] text-[35px] font-bold text-white md:text-[50px] lg:text-[70px] xl:text-[80px] font-avenirnext tracking-[-2%] leading-[88px]">
           L'<span className="text-primary-500">Aerobica Mentale</span> per la
           tua impresa
         </div>
@@ -32,8 +32,8 @@ export const Banner = () => {
           Solo lavorando sulla creazione di una cultura vincente potrai
           sbloccare il potenziale della tua azienda.
         </p>
-        <div className="flex w-[100%] justify-center md:justify-start ">
-          <button className="h-[64px]  w-[200px] rounded-lg bg-primary-500 font-bold text-white md:w-[326px]">
+        <div className="flex w-[100%] justify-center md:justify-start cursor-pointer font-avenirlight text-[20px]">
+          <button className="h-[64px]  w-[326px] rounded-lg bg-primary-500   text-white md:w-[326px] tracking-[2%] leading-[20px]  ">
             Scopri il nostro metodo
           </button>
         </div>

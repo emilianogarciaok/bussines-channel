@@ -11,7 +11,7 @@ export const CardInfo = ({ title, text, image }) => {
       </div>
       {/* Number */}
       <div className="absolute flex items-end justify-end z-20 w-full h-full pr-4 pb-4">
-        <Image src={image} width={34} height={40} />
+        <Image src={image} width={32} height={52} />
       </div>
     </div>
   );

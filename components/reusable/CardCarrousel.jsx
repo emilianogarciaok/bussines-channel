@@ -5,7 +5,7 @@ export const CardCarrousel = ({ name, ocupation, image }) => {
   return (
     <div className="max-w-[215px] h-[324px] flex flex-col items-center mx-auto bg-white rounded-lg shadow-xl">
       {/* Image */}
-      <div className="w-[160px] h-[200px]">
+      <div className="w-[160px] h-[200px] mt-[24px]">
         <Image src={image} alt="Image" />
       </div>
       {/* Text */}

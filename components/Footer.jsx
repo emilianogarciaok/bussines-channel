@@ -8,23 +8,27 @@ export const Footer = () => {
       {/* Footer Items */}
       <div className=" hidden bg-secondary-700 w-full h-full clippyfooter xl:flex  items-center justify-start absolute">
         <div className="w-[668px] h-[177px] ml-[100px]">
-          <nav className="flex justify-between mx-[30px] md:mt-[50px] ">
-            <ul className="text-white flex  flex-col gap-y-4 font-avenirlight">
-              <h5 className="text-[20px] font-bold">Bussines Channel</h5>
+          <nav className="flex justify-between mx-[30px] md:mt-[50px] font-medium ">
+            <ul className="text-white flex  flex-col gap-y-4 font-avenirlight tracking-[-2%] leading-[20px]">
+              <h5 className="text-[20px] font-bold leading-[24px]">
+                Bussines Channel
+              </h5>
               <li>Pagina 1</li>
               <li>Pagina 2</li>
               <li>Pagina 3</li>
               <li>Pagina 4</li>
             </ul>
-            <ul className="text-white flex  flex-col gap-y-4 font-avenirlight">
-              <h5 className=" text-[20px] font-bold">Jump Suite</h5>
+            <ul className="text-white flex  flex-col gap-y-4 font-avenirlight leading-[20px] tracking-[-2%]">
+              <h5 className=" text-[20px] font-bold leading-[24px]">
+                Jump Suite
+              </h5>
               <li>Jump Leader Advanced</li>
               <li>Jump Sales</li>
               <li>Jump Follower</li>
               <li>Jump Leader Live</li>
             </ul>
-            <ul className="text-white flex  flex-col gap-y-4 font-avenirlight">
-              <h5 className="text-[20px] font-bold">Contatti</h5>
+            <ul className="text-white flex  flex-col gap-y-4 font-avenirlight leading-[20px] tracking-[-2%]">
+              <h5 className="text-[20px] font-bold leading-[24px]">Contatti</h5>
               <li>info@businesschannel.it</li>
               <li>+39 0422 36 35 99</li>
               <li>Via Str. della Serenissima,</li>
@@ -39,19 +43,19 @@ export const Footer = () => {
           <h3 className="text-[20px] md:text-[26px] font-bold text-secondary-700">
             Vuoi scoprire quale corso si adatta meglio al tuo business?
           </h3>
-          <h5 className="text-[13px] md:text-[20px] text-secondary-400 font-avenirlight">
+          <h5 className="text-[13px] md:text-[20px] text-secondary-400 font-avenirlight tracking-[-2%] leading-[26px]">
             Inserisci qui il tuo indirizzo email aziendale e organizzeremo un
             appuntamento per discutere delle tue esigenze.
           </h5>
         </div>
         {/* Form */}
-        <form className="w-full  h-[180px] mt-[35px] font-avenirlight">
+        <form className="w-full  h-[180px] mt-[30px] font-avenirlight">
           <input
             type="text"
             className="w-full h-[50px] md:h-[66px]  text-[20px] placeholder:px-[20px] placeholder:text-secondary-400 bg-secondary-50"
             placeholder="Indirizzo email"
           />
-          <p className="text-[12px] text-secondary-200">
+          <p className="text-[12px] text-secondary-200 mt-[8px]">
             Cliccando sul tasto "Contattaci" dichiari di accettare la nostra
             Privacy Policy.
           </p>

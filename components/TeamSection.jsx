@@ -27,7 +27,6 @@ export const TeamSection = () => {
   };
 
   var settings = {
-
     infinite: true,
     speed: 500,
     slidesToShow: 6,
@@ -121,12 +120,12 @@ export const TeamSection = () => {
   return (
     <section className="w-full  h-[890px] overflow-hidden bg-[#F6F6F6] ">
       {/* Textos */}
-      <div className="xl:w-[1090px] w-[100%] h-[278px]  md:mx-auto  mb-0  lg:mb-[100px]">
-        <h1 className="text-[30px] sm:text-[40px] md:text-[60px] lg:text-[65px] xl:text-[80px]  text-center md:mx-0 mx-[10px] text-se text-secondary-700">
+      <div className="xl:w-[1090px] w-[100%] h-[200px] lg:h-[278px]  md:mx-auto  mb-0  lg:mb-[100px]">
+        <h3 className="text-[30px] sm:text-[40px] md:text-[60px] lg:text-[65px] xl:text-[80px]  text-center md:mx-0 mx-[10px] text-se text-secondary-700">
           ...e tutto questo, solo grazie al nostro{" "}
           <span className="text-primary-500 ">straordinario team</span>
-        </h1>
-        <p className="lg:text-[17.5px] text-[15px] text-center lg:mx-[50px] mx-[60px] md:text-start text-secondary-500 font-avenirlight">
+        </h3>
+        <p className="lg:text-[17.5px] text-[16px] text-center lg:mx-[13px] mx-[60px] md:text-start text-secondary-500 font-avenirlight">
           Nel team di Business Channel, brilla un gruppo di collaboratori
           straordinari, tutti impegnati a offrire il massimo supporto ai nostri
           partner. I fondatori dell'azienda sono stati gli architetti di
@@ -135,7 +134,7 @@ export const TeamSection = () => {
         </p>
       </div>
       {/* Carrousel */}
-      <div className="xl:w-[1500px]  w-[80%]  mx-auto h-[350px]  sm-mt-0 mt-[129px]  ">
+      <div className="xl:w-[1380px]  w-[80%]  mx-auto h-[370px]  mt-[50px] pt-[15px] lg:mt-[129px]">
         <div>
           <Slider {...settings} ref={sliderRef}>
             {cards.map((card) => {
@@ -150,12 +149,12 @@ export const TeamSection = () => {
             })}
           </Slider>
           <div className="mt-[30px] w-full h-[40px] flex justify-center md:text-start text-center items-center text-[20px] md:text-[24px] text-secondary-500 font-avenirlight gap-x-8 mx-auto">
-            <button>
+            <button className="hover:scale-110 transition-all">
               <Image src={arrowleft} onClick={prevSlide} />
             </button>
             <span>Conosci i nostri talenti</span>
-            <button>
-              <Image src={arrowright} onClick={nextSlide}/>
+            <button className="hover:scale-110 transition-all">
+              <Image src={arrowright} onClick={nextSlide} />
             </button>
           </div>
         </div>

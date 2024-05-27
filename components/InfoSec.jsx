@@ -24,48 +24,48 @@ export const InfoSec = () => {
   ];
 
   return (
-    <div className="bg-[#F6F6F6] max-w-[1126px] w-[100%] min-h-[calc(100vh-130px)] mx-auto mb-[50px] ">
+    <div className="bg-[#F6F6F6] max-w-[1126px] w-[100%] min-h-[1130px] mx-auto ">
       {/* Caja 1 */}
-      <div className="flex flex-col w-[90%] h-[382px] xl:w-[1124px] mx-auto mb-[100px] sm:mb-[10px]">
+      <div className="flex flex-col w-[90%] h-[382px] xl:w-[1124px] mx-auto  md:mb-[50px] sm:mb-[10px] mt-0">
         <div className="xl:w-[785px] w-full h-[80px] md:text-start text-center md:mx-auto lg:mx-0">
-          <div className="w-full">
-            <div className="md:text-[25px] font-Roboto lg:text-[32px] sm:text-[20px] text-[18px] mt-[20px] lg:mt-0  text-secondary-500 w-full">
-              Un anno di coinvolgimento totale per creare un luogo in cui le
-              persone
-              <span className="text-red-500">"parlano la stessa lingua"</span>
-            </div>
+          <div className="md:text-[25px] font-Roboto lg:text-[32px] sm:text-[20px] text-[18px]   text-secondary-500 w-full leading-[40px]  mt-0 md:mt-[80px] mb-0 md:mb-[24px]">
+            Un anno di coinvolgimento totale per creare un luogo in cui le
+            persone
+            <span className="text-red-500">"parlano la stessa lingua"</span>
           </div>
-          <h3 className="lg:text-[65px] md:text-[50px] text-[40px] text-secondary-700 font-bold">
+          <h1 className="lg:text-[80px] md:text-[60px] text-[40px] text-secondary-700 font-bold tracking-[-2%] leading-[88px]">
             Il metodo
-          </h3>
-          <h3 className="lg:text-[65px] md:text-[50px] text-[40px] text-primary-500 font-bold">
+          </h1>
+          <h1 className="lg:text-[80px] md:text-[60px] text-[40px] text-primary-500 font-bold tracking-[-2%] leading-[88px]">
             Business Channel
-          </h3>
-          <div className="text-[20px] w-[100%] text-secondary-500 font-avenirlight">
-            Il miglioramento è una dato di fatto. La frase obsoleta
-            <span className="text-primary-500 font-bold">
-              "chi non si forma si ferma"
-            </span>
+          </h1>
+          <div className="text-[20px] w-[100%]  text-secondary-500 font-avenirlight mt-[10px] md:mt-[24px] leading-[26px] tracking-[-2%]  ">
+            <p>
+              Il miglioramento è una dato di fatto. La frase obsoleta{" "}
+              <span className="text-primary-500 font-bold">"chi non si forma si ferma"</span>{" "}
+            </p>
             rimarrà sempre un dato di fatto. Spesso però gli imprenditori
             rallentano questa corsa per 3 motivi principali:
           </div>
         </div>
       </div>
       {/* Cards */}
-      <div className="mx-auto grid max-w-sm grid-cols-1 gap-[30px]  lg:mx-auto lg:max-w-[1126px] lg:grid-cols-3 mb-[40px] xl:grid-cols-3">
-        {cards.map((card) => {
-          return (
-            <CardInfo
-              key={card.number}
-              title={card.title}
-              text={card.text}
-              image={card.image}
-            />
-          );
-        })}
+      <div className=" w-full sm:mt-0 mt-[150px] ">
+        <div className=" grid max-w-sm grid-cols-1 gap-[30px]  mt-[50px] md:mt-[130px] mx-auto lg:mx-0 lg:max-w-[1000px] lg:grid-cols-3 mb-[48px] xl:grid-cols-3 ">
+          {cards.map((card) => {
+            return (
+              <CardInfo
+                key={card.number}
+                title={card.title}
+                text={card.text}
+                image={card.image}
+              />
+            );
+          })}
+        </div>
       </div>
       {/* Texts */}
-      <div className="w-full  text-[18px] text-center sm:text-start md:text-[20px] h-[78px] mb-[100px] sm:mb-[30px] font-avenirlight">
+      <div className="w-full   text-[15px] text-center sm:text-start md:text-[20px] h-[78px] mb-[50px] font-avenirlight ">
         <div className="w-[100%] xl:w-[910px] mx-auto lg:mx-0 text-secondary-500 px-[20px] lg:px-0">
           ...e se ti dicessimo che abbiamo trovato la{" "}
           <span className="text-primary-500 font-bold">soluzione</span> per
@@ -76,9 +76,9 @@ export const InfoSec = () => {
         </div>
       </div>
       {/* Button */}
-      <div className=" mx-auto w-full lg:pt-0 pt-[40px] font-avenirlight">
+      <div className=" mx-auto w-full lg:pt-0 pt-[40px] font-avenirlight mb-[40px]">
         <div className="w-[326px] h-[64px] lg:mx-0 mx-auto flex items-center justify-center">
-          <button className="h-[64px] w-full bg-primary-500 text-white  rounded-md">
+          <button className="h-[64px] w-full bg-primary-500 text-white  rounded-md tracking-[2%] leading-[20px] text-[20px] font-medium">
             Scopri adesso la soluzione
           </button>
         </div>

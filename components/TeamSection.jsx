@@ -118,7 +118,7 @@ export const TeamSection = () => {
   ];
 
   return (
-    <section className="w-full  h-[890px] overflow-hidden bg-[#F6F6F6] ">
+    <section className="w-full  h-[890px] overflow-hidden bg-[#F6F6F6]  mt-0 md:mt-[180px]">
       {/* Textos */}
       <div className="xl:w-[1090px] w-[100%] h-[200px] lg:h-[278px]  md:mx-auto  mb-0  lg:mb-[100px] px-[40px] xl:px-0">
         <h3 className="text-[30px] sm:text-[40px] md:text-[60px] lg:text-[65px] xl:text-[80px]  text-center md:mx-0 mx-[10px] text-se text-secondary-700">

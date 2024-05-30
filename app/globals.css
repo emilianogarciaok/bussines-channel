@@ -1,15 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
 
 :root {
   padding: 0;
   margin: 0;
   background: #f6f6f6;
-}
-body {
-  font-size: 16px;
 }
 
 .clippy {
@@ -17,7 +15,6 @@ body {
 }
 .clippyHero {
   clip-path: polygon(0 83%, 100% 90%, 100% 100%, 0% 100%);
-
 }
 
 .clippyfooter {
@@ -25,6 +22,16 @@ body {
 }
 
 @font-face {
-  font-family: "AvenirNext";
-  src: url("./public/font/avenir-next/AvenirNextCyr-Light.ttf");
+  font-family: "avenirnormal";
+  src: url(./public/font/avenir-next/AvenirNextCyr-Regular.ttf);
+}
+@font-face {
+  font-family: "avenirbold";
+  src: url(./public/font/avenir-next/AvenirNextCyr-Bold.ttf);
+  font-weight:bold;
+  font-style:bold
+}
+
+.h1{
+  @apply tracking-[-2%] leading-[88px] 
 }

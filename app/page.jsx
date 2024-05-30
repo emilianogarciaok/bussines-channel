@@ -7,8 +7,8 @@ import { Courses } from "@/components/Courses";
 import { HeroSec } from "@/components/HeroSec";
 import { Review } from "@/components/Review";
 import { SocialProof } from "@/components/SocialProof";
-import { TeamSection } from "@/components/TeamSection";
 import { Footer } from "@/components/Footer";
+import { TeamSection } from "@/components/reusable/TeamSelection/TeamSection";
 
 export default function Home() {
   return (

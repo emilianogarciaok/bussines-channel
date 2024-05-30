@@ -1,19 +1,23 @@
 "use client";
 import React, { useRef } from "react";
 import Slider from "react-slick";
-import card1 from "../images/home-page/Carrousel/card1.svg";
-import card2 from "../images/home-page/Carrousel/card2.svg";
-import card3 from "../images/home-page/Carrousel/card3.svg";
-import card4 from "../images/home-page/Carrousel/card4.svg";
-import card5 from "../images/home-page/Carrousel/card5.svg";
-import card6 from "../images/home-page/Carrousel/card6.svg";
+import card1 from '../../../images/home-page/Carrousel/card1.svg'
+import card2 from "../../../images/home-page/Carrousel/card2.svg";
+import card3 from "../../../images/home-page/Carrousel/card3.svg";
+import card4 from "../../../images/home-page/Carrousel/card4.svg";
+import card5 from "../../../images/home-page/Carrousel/card5.svg";
+import card6 from "../../../images/home-page/Carrousel/card6.svg";
+import card7 from "../../../images/home-page/Carrousel/card7.svg";
+import card8 from "../../../images/home-page/Carrousel/card8.svg";
+import card9 from "../../../images/home-page/Carrousel/card9.svg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { CardCarrousel } from "./reusable/CardCarrousel";
-import arrowleft from "../images/logos/ArrowLeft.svg";
-import arrowright from "../images/logos/ArrowRight.svg";
+import { CardCarrousel } from "../CardCarrousel";
+import arrowleft from "../../../images/logos/ArrowLeft.svg"
+import arrowright from "../../../images/logos/ArrowRight.svg"
 import Image from "next/image";
-
+import { AvenirBold } from "@/app/ui/fonts";
+import './teamselection.css'
 export const TeamSection = () => {
   // Funciones para el carrousel
 
@@ -103,29 +107,29 @@ export const TeamSection = () => {
     {
       name: "F. Coppola",
       ocupation: "Partner & RD Manager",
-      image: card1,
+      image: card7,
     },
     {
       name: "F. Coppola",
       ocupation: "Partner & RD Manager",
-      image: card1,
+      image: card8,
     },
     {
       name: "F. Coppola",
       ocupation: "Partner & RD Manager",
-      image: card1,
+      image: card9,
     },
   ];
 
   return (
     <section className="w-full  h-[890px] overflow-hidden bg-[#F6F6F6]  mt-0 md:mt-[180px]">
       {/* Textos */}
-      <div className="xl:w-[1090px] w-[100%] h-[200px] lg:h-[278px]  md:mx-auto  mb-0  lg:mb-[100px] px-[40px] xl:px-0">
-        <h3 className="text-[30px] sm:text-[40px] md:text-[60px] lg:text-[65px] xl:text-[80px]  text-center md:mx-0 mx-[10px] text-se text-secondary-700">
+      <div className="xl:w-[1124px]  w-[100%] h-[200px] lg:h-[278px]  md:mx-auto  mb-0  lg:mb-[30px] px-[40px] xl:px-0">
+        <h1 className={`text-[30px] sm:text-[40px] md:text-[60px]  lg:text-[65px] xl:text-[80px]  text-center md:mx-0 mx-[10px] lg:text-start text-secondary-700 md:tracking-[-2%] md:leading-[88px] ${AvenirBold.className}`}>
           ...e tutto questo, solo grazie al nostro{" "}
-          <span className="text-primary-500 ">straordinario team</span>
-        </h3>
-        <p className="lg:text-[17.5px] text-[17px] text-center md:mx-[13px] px-[20px] xl:px-0 md:text-start text-secondary-500 font-avenirlight w-full md:w-[91%]">
+          <span className="text-primary-500  ">straordinario team</span>
+        </h1>
+        <p className="lg:text-[20px] text-[17px]  text-center  xl:px-0   md:text-start text-secondary-500  w-full  md:tracking-[-2%] md:leading-[26px]">
           Nel team di Business Channel, brilla un gruppo di collaboratori
           straordinari, tutti impegnati a offrire il massimo supporto ai nostri
           partner. I fondatori dell'azienda sono stati gli architetti di
@@ -134,8 +138,8 @@ export const TeamSection = () => {
         </p>
       </div>
       {/* Carrousel */}
-      <div className="xl:w-[1380px]  w-[80%]   mx-auto h-[370px]  mt-[230px] sm:mt-[40px] md:mt-[165px] pt-[15px] lg:mt-[120px]">
-        <div>
+      <div className="xl:w-[1380px]  pb-[50px]  w-[80%]   mx-auto h-[400px]  mt-[230px] sm:mt-[40px] md:mt-[165px] pt-[35px] lg:mt-[0]">
+        <div className="custom-slider">
           <Slider {...settings} ref={sliderRef}>
             {cards.map((card) => {
               return (

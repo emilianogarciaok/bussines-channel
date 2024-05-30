@@ -3,6 +3,7 @@ import { CardInfo } from "./reusable/CardInfo";
 import num1 from "../images/home-page/num1.svg";
 import num2 from "../images/home-page/num2.svg";
 import num3 from "../images/home-page/num3.svg";
+import { AvenirBold, AvenirMedium } from "@/app/ui/fonts";
 
 export const InfoSec = () => {
   const cards = [
@@ -28,21 +29,29 @@ export const InfoSec = () => {
       {/* Caja 1 */}
       <div className="flex flex-col w-[90%] h-[382px] xl:w-[1124px] mx-auto  md:mb-[50px] sm:mb-[10px] mt-0">
         <div className="xl:w-[785px] w-full h-[80px] md:text-start text-center md:mx-auto lg:mx-0">
-          <div className="md:text-[25px] font-Roboto lg:text-[32px] sm:text-[20px] text-[18px]   text-secondary-500 w-full leading-[40px]  mt-0 md:mt-[80px] mb-0 md:mb-[24px]">
+          <div className="md:text-[25px] font-Roboto lg:text-[32px] font-roboto font-bold sm:text-[20px] text-[18px]   text-secondary-500 w-full leading-[40px]  mt-0 md:mt-[80px] mb-0 md:mb-[24px]">
             Un anno di coinvolgimento totale per creare un luogo in cui le
             persone
             <span className="text-red-500">"parlano la stessa lingua"</span>
           </div>
-          <h1 className="lg:text-[80px] md:text-[60px] text-[40px] text-secondary-700 font-bold md:tracking-[-2%] md:leading-[88px] ">
+          <h1
+            className={`lg:text-[80px] md:text-[60px] text-[40px] text-secondary-700 ${AvenirBold.className} md:tracking-[-2%] md:leading-[88px]`}
+          >
             Il metodo
           </h1>
-          <h1 className="lg:text-[80px] md:text-[60px] text-[40px] text-primary-500 font-bold md:tracking-[-2%] md:leading-[88px]">
+          <h1
+            className={`lg:text-[80px] md:text-[60px] text-[40px] text-primary-500  md:tracking-[-2%] md:leading-[88px] ${AvenirBold.className}`}
+          >
             Business Channel
           </h1>
           <div className="text-[20px] w-[100%]  text-secondary-500 font-avenirlight mt-[10px] md:mt-[24px] leading-[26px] tracking-[-2%]  ">
             <p className="mx-auto">
               Il miglioramento è una dato di fatto. La frase obsoleta{" "}
-              <span className="text-primary-500 font-bold">"chi non si forma si ferma"</span>{" "}
+              <span
+                className={`text-primary-500 font-bold leading-[24px] ${AvenirBold.className}`}
+              >
+                "chi non si forma si ferma"
+              </span>
             </p>
             rimarrà sempre un dato di fatto. Spesso però gli imprenditori
             rallentano questa corsa per 3 motivi principali:
@@ -65,15 +74,19 @@ export const InfoSec = () => {
         </div>
       </div>
       {/* Texts */}
-      <div className="w-full   text-[15px] text-center sm:text-start md:text-[20px] h-[78px] mb-[50px] font-avenirlight ">
-        <div className="w-[100%] xl:w-[910px] mx-auto lg:mx-0 text-secondary-500 px-[20px] lg:px-0">
+      <div className={`w-full   text-[15px] text-center sm:text-start md:text-[20px] h-[78px] mb-[50px] font-avenirlight ${AvenirMedium.className}`}>
+        <h6 className="w-[100%] xl:w-[910px] mx-auto lg:mx-0 text-secondary-500 px-[20px] lg:px-0 leading-[32px] tracking-[-2%]">
           ...e se ti dicessimo che abbiamo trovato la{" "}
-          <span className="text-primary-500 font-bold">soluzione</span> per
-          questi 3 problemi fondamentali, saresti disposto a valutare un nuovo
-          cammino alla ricerca della versione migliore della tua azienda? Beh,
-          che domande...{" "}
-          <span className="text-primary-500 font-bold">Certo che si!</span>
-        </div>
+          <span className={` text-primary-500`}>soluzione</span> per questi 3
+          problemi fondamentali, saresti disposto a valutare un nuovo cammino
+          alla ricerca della versione migliore della tua azienda? Beh, che
+          domande...{" "}
+          <span
+            className={`text-primary-500 font-bold ${AvenirBold.className} leading-[24px] tracking-[-2%]`}
+          >
+            Certo che si!
+          </span>
+        </h6>
       </div>
       {/* Button */}
       <div className=" mx-auto w-full lg:pt-0 pt-[40px] font-avenirlight mb-[40px]">

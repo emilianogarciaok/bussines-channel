@@ -9,10 +9,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily:{
-        Roboto:["Roboto Slab", "serif"],
-        'avenirlight': ['Avenir Light', 'sans-serif'],
-      },
       container: {
         padding: {
           DEFAULT: "0",
@@ -43,6 +39,9 @@ module.exports = {
           800: "#1A1A1A",
         },
       },
+      fontFamily:{
+        roboto:["Roboto Slab", "serif"]
+      }
     },
   },
   plugins: [],

@@ -18,13 +18,13 @@ export const CardCourses = ({ image, title, text, buttonText }) => {
       </div>
       {/* Texts */}
       <div className="w-[262px] h-[120px] ">
-        <h2 className="text-[23px] md:text-[26px]  text-secondary-700 ">
+        <h5 className="text-[23px] md:text-[26px]  text-secondary-700 md:tracking-[-2%] md:leading-[32px] ">
           {title}
-        </h2>
-        <p className="text-[16px] text-secondary-500 mb-[20px] font-avenirlight">
+        </h5>
+        <p className="text-[16px] text-secondary-400 mb-[20px] mt-[5px] font-avenirlight md:tracking-[-2%] md:leading-[20px]">
           {text}
         </p>
-        <button className="w-full lg:w-[262px] h-[48px] text-[20px] border-[2px] border-primary-500 text-primary-500 rounded-md">
+        <button className="w-full lg:w-[262px] h-[48px] text-[20px] border-[2px] font-avenirlight font-bold border-primary-500 text-primary-500 rounded-md">
           {buttonText}
         </button>
       </div>

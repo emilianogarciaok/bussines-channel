@@ -13,7 +13,7 @@ export const CardCourses = ({ image, title, text, buttonText }) => {
           priority
           width={326}
           height={200}
-          className="rounded-lg"
+          className="rounded-t-lg"
         />
       </div>
       {/* Texts */}

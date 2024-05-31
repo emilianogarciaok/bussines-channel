@@ -3,7 +3,7 @@ import { CardInfo } from "./reusable/CardInfo";
 import num1 from "../images/home-page/num1.svg";
 import num2 from "../images/home-page/num2.svg";
 import num3 from "../images/home-page/num3.svg";
-import { AvenirBold, AvenirMedium } from "@/app/ui/fonts";
+import { AvenirBold, AvenirMedium, RobotoSlab } from "@/app/ui/fonts";
 
 export const InfoSec = () => {
   const cards = [
@@ -29,7 +29,7 @@ export const InfoSec = () => {
       {/* Caja 1 */}
       <div className="flex flex-col w-[90%] h-[382px] xl:w-[1124px] mx-auto  md:mb-[50px] sm:mb-[10px] mt-0">
         <div className="xl:w-[785px] w-full h-[80px] md:text-start text-center md:mx-auto lg:mx-0">
-          <div className="md:text-[25px] font-Roboto lg:text-[32px] font-roboto font-bold sm:text-[20px] text-[18px]   text-secondary-500 w-full leading-[40px]  mt-0 md:mt-[80px] mb-0 md:mb-[24px]">
+          <div className={`md:text-[25px] lg:text-[32px] font-roboto font-bold sm:text-[20px] text-[18px]   text-secondary-500 w-full leading-[40px]  mt-0 md:mt-[80px] mb-0 md:mb-[24px] ${RobotoSlab.className}`}>
             Un anno di coinvolgimento totale per creare un luogo in cui le
             persone
             <span className="text-red-500">"parlano la stessa lingua"</span>

@@ -15,3 +15,8 @@ export const AvenirMedium = localFont({
     src: '../public/font/avenir-next/AvenirNextCyr-Demi.ttf',
     display: 'swap',
   })
+
+  export const RobotoSlab = localFont({
+    src: '../public/font/avenir-next/RobotoSlab-Regular.ttf',
+    display: 'swap',
+  })

@@ -38,7 +38,7 @@ export const Footer = () => {
         </div>
       </div>
       {/* Form */}
-      <div className="md:text-start text-center w-full md:w-[530px] h-[455px]  mx-auto xl:absolute  flex flex-col items-center justify-center px-[50px] bg-white rounded-lg shadow-2xl xl:mr-[50px]  xl:right-0">
+      <div className="md:text-start text-center w-full md:w-[530px] h-[455px]  mx-auto xl:absolute  flex flex-col items-center justify-center px-[50px] bg-white rounded-lg shadow-2xl xl:mr-[80px]  xl:right-0">
         <div className="w-full  h-[150px] flex items-center justify-start  flex-col  ">
           <h3 className="text-[20px] md:text-[26px] font-bold text-secondary-700 ">
             Vuoi scoprire quale corso si adatta meglio al tuo business?

@@ -11,8 +11,8 @@ export const CardInfo = ({ title, text, image }) => {
         <p className={`text-white text-[16px] font-avenirlight leading-[20px] tracking-[-2%] mt-[13px] ${AvenirMedium.className}`}>{text}</p>
       </div>
       {/* Number */}
-      <div className={`${AvenirMedium.className} absolute flex items-end justify-end z-20 w-[32px] h-[52px]  pr-4 pb-4 `}>
-        <Image src={image} width={32} height={52} />
+      <div className={`${AvenirMedium.className} absolute flex items-end justify-end z-20 w-full scale-110 h-full  pr-9 pb-9 `}>
+        <Image src={image}  />
       </div>
     </div>
   );

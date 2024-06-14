@@ -10,6 +10,7 @@ import card6 from "../../../images/home-page/Carrousel/card6.svg";
 import card7 from "../../../images/home-page/Carrousel/card7.svg";
 import card8 from "../../../images/home-page/Carrousel/card8.svg";
 import card9 from "../../../images/home-page/Carrousel/card9.svg";
+import card10 from "../../../images/home-page/Carrousel/card10.svg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { CardCarrousel } from "../CardCarrousel";
@@ -36,6 +37,7 @@ export const TeamSection = () => {
     slidesToShow: 6,
     slidesToScroll: 1,
     initialSlide: 0,
+    arrows: false,
     responsive: [
       {
         breakpoint: 1280,
@@ -105,18 +107,23 @@ export const TeamSection = () => {
       image: card6,
     },
     {
-      name: "F. Coppola",
-      ocupation: "Partner & RD Manager",
+      name: "R. Sgarioto",
+      ocupation: "Segreteria  Commerciale",
       image: card7,
     },
     {
-      name: "F. Coppola",
-      ocupation: "Partner & RD Manager",
+      name: "M. G. Velleca",
+      ocupation: "Responsabile organizzativa",
       image: card8,
     },
     {
-      name: "F. Coppola",
-      ocupation: "Partner & RD Manager",
+      name: "G. Zin",
+      ocupation: "Responsabile Telemarketing",
+      image: card10,
+    },
+    {
+      name: "S. Picchi",
+      ocupation: "Segreteria Commerciale",
       image: card9,
     },
   ];

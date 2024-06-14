@@ -29,7 +29,7 @@ export const InfoSec = () => {
       {/* Caja 1 */}
       <div className="flex flex-col w-[90%] h-[382px] xl:w-[1124px] mx-auto  md:mb-[50px] sm:mb-[10px] mt-0">
         <div className="xl:w-[785px] w-full h-[80px] md:text-start text-center md:mx-auto lg:mx-0">
-          <div className={`md:text-[25px] lg:text-[32px] font-roboto font-bold sm:text-[20px] text-[18px]   text-secondary-500 w-full leading-[40px]  mt-0 md:mt-[80px] mb-0 md:mb-[24px] ${RobotoSlab.className}`}>
+          <div className={`md:text-[25px] lg:text-[32px] font-roboto font-bold sm:text-[20px] text-[18px]   text-secondary-500 w-full tracking-[-1%] md:leading-[40px]  mt-[50px] md:mt-[80px] mb-[10px] md:mb-[24px] ${RobotoSlab.className}`}>
             Un anno di coinvolgimento totale per creare un luogo in cui le
             persone
             <span className="text-red-500">"parlano la stessa lingua"</span>
@@ -77,7 +77,7 @@ export const InfoSec = () => {
       <div className={`w-full   text-[15px] text-center sm:text-start md:text-[20px] h-[78px] mb-[50px] font-avenirlight ${AvenirMedium.className}`}>
         <h6 className="w-[100%] xl:w-[910px] mx-auto lg:mx-0 text-secondary-500 px-[20px] lg:px-0 leading-[32px] tracking-[-2%]">
           ...e se ti dicessimo che abbiamo trovato la{" "}
-          <span className={` text-primary-500`}>soluzione</span> per questi 3
+          <span className={` text-primary-500 ${AvenirBold.className}`}>soluzione</span> per questi 3
           problemi fondamentali, saresti disposto a valutare un nuovo cammino
           alla ricerca della versione migliore della tua azienda? Beh, che
           domande...{" "}

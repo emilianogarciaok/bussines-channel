@@ -6,7 +6,7 @@ import { AvenirBold } from "@/app/ui/fonts";
 export const Review = () => {
   return (
     <section className="lg:w-[913px] w-full h-[474px] mx-auto relative mb-0 md:mb-[50px]">
-      <div className="w-[100%]  lg:text-start text-center  md:tracking-[-2%] md:leading-[38px] rounded-lg  h-[342px]  text-[20px] md:text-[25px] lg:text-[32px] flex flex-col justify-between text-secondary-500 absolute font-avenirlight">
+      <div className="w-[100%]  lg:text-start text-center  md:tracking-[-2%]  mt-[50px] md:mt-0 md:leading-[38px] rounded-lg  h-[342px]  text-[20px] md:text-[25px] lg:text-[32px] flex flex-col justify-between text-secondary-500 absolute font-avenirlight">
         <p className="lg:mb-0 mb-[20px] md:px-0 px-[10px]">
           Dopo 3 anni di sperimentazione del nostro nuovo progetto formativo,
           abbiamo condotto un'indagine per raccogliere i feedback dei nostri

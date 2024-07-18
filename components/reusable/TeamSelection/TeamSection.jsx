@@ -121,11 +121,6 @@ export const TeamSection = () => {
       ocupation: "Responsabile Telemarketing",
       image: card10,
     },
-    {
-      name: "S. Picchi",
-      ocupation: "Segreteria Commerciale",
-      image: card9,
-    },
   ];
 
   return (

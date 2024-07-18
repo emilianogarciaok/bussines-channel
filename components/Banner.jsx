@@ -7,7 +7,7 @@ import { AvenirBold, AvenirDemi, AvenirMedium } from "@/app/ui/fonts";
 
 export const Banner = () => {
   return (
-    <section className="relative mx-auto flex  h-[982px] w-[100%] items-center justify-start">
+    <section className="relative mx-auto flex  h-[982px] w-[100%] items-center justify-start  xl:w-[1920px]">
       {/* NavBar */}
       <div className="absolute w-full top-0 z-10 mt-[30px]">
         <NavBar />
@@ -24,18 +24,19 @@ export const Banner = () => {
         />
       </div>
       {/* Texts */}
-      <div className="absolute z-50 mt-[90px]  h-[276px] mx-auto text-center lg:w-[760px] md:w-[650px] xl:text-start mb-[130px] ml-0 lg:ml-[100px]">
+      <div className="absolute z-50 mt-[90px]  h-[276px] mx-auto text-center lg:w-[1100px] md:w-[650px] xl:text-start mb-[130px] ml-0 lg:ml-[100px]">
         <h1
-          className={`mb-[24px] text-[35px]  text-white md:text-[50px] lg:text-[70px] xl:text-[80px] ${AvenirBold.className} md:tracking-[-2%] md:leading-[88px]`}
+          className={`mb-[24px] text-[35px]  text-white md:text-[50px] lg:text-[70px] xl:text-[65px] ${AvenirBold.className} md:tracking-[-2%] md:leading-[88px]`}
         >
-          L'<span className="text-primary-500">Aerobica Mentale</span> per la
-          tua impresa
+          L'<span className="text-primary-500">Armonia aziendale</span> Nessun
+          altro offre un servizio così esclusivo per trasformare il tuo business
         </h1>
         <p
           className={`mb-[40px]  md:px-0 text-[22px] md:text-[26px] lg:text-[30px] text-white  ${AvenirMedium.className}`}
         >
-          Solo lavorando sulla creazione di una cultura vincente potrai
-          sbloccare il potenziale della tua azienda.
+          Crea un ambiente dove il rispetto, la collaborazione e la crescita
+          personale si intrecciano: solo così l'armonia aziendale diventa la
+          chiave del successo.
         </p>
         <div
           className={`flex w-[100%] ${AvenirMedium.className} justify-center md:justify-start cursor-pointer  text-[17px] md:text-[20px]`}

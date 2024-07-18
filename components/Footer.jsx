@@ -30,8 +30,8 @@ export const Footer = () => {
             <ul className="text-white flex   flex-col gap-y-1 font-avenirlight leading-[20px]  tracking-[-2%]">
               <h5 className="text-[20px] font-bold leading-[24px]">Contatti</h5>
               <li>info@businesschannel.it</li>
-              <li>+39 0422 36 35 99</li>
-              <li>Via Str. della Serenissima,</li>
+              <li>+39 351 567 9400</li>
+              <li>Via treviso 17</li>
               <li>3/A - 31057 Silea (TV)</li>
             </ul>
           </nav>

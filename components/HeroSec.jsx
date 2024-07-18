@@ -20,7 +20,7 @@ export const HeroSec = () => {
         </div>
       </div>
       {/* Image */}
-      <div className="z-20 absolute bottom-[-2px] flex justify-center items-center w-full overflow-hidden">
+      <div className="z-20 absolute bottom-[-4px] flex justify-center items-center w-full overflow-hidden">
         <div className="w-full overflow-hidden ">
           <Image
             src={linehome2}

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import cardcourse1 from "../../images/home-page/cardcourse2.png";
+import { AvenirBold } from "@/app/ui/fonts";
 
 export const CardCourses = ({ image, title, text, buttonText }) => {
   return (
@@ -18,7 +19,7 @@ export const CardCourses = ({ image, title, text, buttonText }) => {
       </div>
       {/* Texts */}
       <div className="w-[262px] h-[120px] ">
-        <h5 className="text-[23px] md:text-[26px]  text-secondary-700 md:tracking-[-2%] md:leading-[32px] ">
+        <h5 className={`text-[23px] md:text-[26px]  text-secondary-700 md:tracking-[-2%] md:leading-[32px] ${AvenirBold.className}`}>
           {title}
         </h5>
         <p className="text-[16px] text-secondary-400 mb-[20px] mt-[5px] font-avenirlight md:tracking-[-2%] md:leading-[20px]">

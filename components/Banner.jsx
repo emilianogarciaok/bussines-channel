@@ -7,7 +7,7 @@ import { AvenirBold, AvenirDemi, AvenirMedium } from "@/app/ui/fonts";
 
 export const Banner = () => {
   return (
-    <section className="relative mx-auto flex  h-[982px] w-[100%] items-center justify-start  xl:w-[1920px]">
+    <section className="relative mx-auto flex  h-[982px] w-[100%] items-center justify-start">
       {/* NavBar */}
       <div className="absolute w-full top-0 z-10 mt-[30px]">
         <NavBar />
@@ -24,7 +24,7 @@ export const Banner = () => {
         />
       </div>
       {/* Texts */}
-      <div className="absolute z-50 mt-[90px]  h-[276px] mx-auto text-center lg:w-[1100px] md:w-[650px] xl:text-start mb-[130px] ml-0 lg:ml-[100px]">
+      <div className="absolute z-50 mt-[90px]  h-[276px] mx-auto text-center lg:w-[75%] md:w-[650px] xl:text-start mb-[130px] ml-0 lg:ml-[100px]">
         <h1
           className={`mb-[24px] text-[35px]  text-white md:text-[50px] lg:text-[70px] xl:text-[65px] ${AvenirBold.className} md:tracking-[-2%] md:leading-[88px]`}
         >

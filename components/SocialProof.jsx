@@ -1,5 +1,8 @@
 import React from "react";
-import { CardProof } from "./reusable/CardProof";
+import { CardProof} from "./reusable/CardProof";
+import { CardProof2 } from "./reusable/CardProof2";
+import { CardProof3 } from "./reusable/CardProof3";
+
 
 export const SocialProof = () => {
   return (
@@ -9,10 +12,10 @@ export const SocialProof = () => {
           <CardProof />
         </div>
         <div className="hidden lg:flex pt-[200px]">
-          <CardProof />
+          <CardProof2 />
         </div>
         <div className="hidden lg:flex">
-          <CardProof />
+          <CardProof3 />
         </div>
       </section>
       {/* Degradade */}

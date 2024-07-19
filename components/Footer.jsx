@@ -68,7 +68,7 @@ export const Footer = () => {
       <div className="w-full  bg-primary-500 text-[13px] text-white h-[48px] absolute bottom-0 left-0 right-0 px-4 md:px-8 flex items-center justify-between font-avenirlight">
         <nav className="md:text-start text-center">
           <span>
-            © Copyright 2024 Business Channel S.r.l. – P.IVA 1234567890
+            © Copyright 2024 Business Channel S.r.l. – P.IVA 04314440266
           </span>
         </nav>
         <nav className="hidden md:flex items-center justify-center gap-4 mr-[100px]">

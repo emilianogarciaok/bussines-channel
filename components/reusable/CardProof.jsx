@@ -29,14 +29,14 @@ export const CardProof = () => {
       {cards.map((card) => {
         return (
           <div
-            className="w-[350px] sm:w-[400px]  md:w-[554px] h-[160x] overflow-hidden bg-white rounded-lg shadow-lg mx-auto flex items-center mb-[20px] ml-0 sm:ml-[30px]"
+            className="w-[350px] sm:w-[400px]  md:w-[554px] h-[145px] overflow-hidden bg-white rounded-lg shadow-lg mx-auto flex items-center mb-[20px] ml-0 sm:ml-[30px]"
             key={card.index}
           >
             <div className="px-6 w-full text-white overflow-hidden">
               <h5 className=" font-bold text-[26px] text-secondary-100">
                 <span className="text-primary-500">{card.review}</span>/10
               </h5>
-              <p className="text-[14px] text-secondary-500 font-avenirlight">
+              <p className="text-[11px] text-secondary-500 font-avenirlight">
                 {card.text}
               </p>
             </div>
